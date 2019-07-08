@@ -31,7 +31,7 @@ public class grime_server2 {
   // Construct the application.
   public grime_server2() {
     Server_Frame2 frame = new Server_Frame2();
-    // Validate frames that have preset sizes
+    // Validate frames that have preset sizes.
     // Pack frames that have useful preferred size info, e.g. from their
     // layout
     if (packFrame) {
