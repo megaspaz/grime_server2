@@ -28,7 +28,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
 public class grime_server2 {
   boolean packFrame = false;
 
-  // Construct the application
+  // Construct the application.
   public grime_server2() {
     Server_Frame2 frame = new Server_Frame2();
     // Validate frames that have preset sizes
