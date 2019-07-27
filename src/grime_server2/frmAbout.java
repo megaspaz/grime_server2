@@ -48,7 +48,7 @@ import javax.swing.SwingConstants;
  * <p>
  * Company: N/A
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 2.0
  */
@@ -141,6 +141,7 @@ public class frmAbout extends JDialog implements ActionListener {
   }
 
   // Overridden so we can exit when window is closed
+  @Override
   protected void processWindowEvent(WindowEvent e) {
     if (e.getID() == WindowEvent.WINDOW_CLOSING) {
       cancel();
@@ -154,6 +155,7 @@ public class frmAbout extends JDialog implements ActionListener {
   }
 
   // Close the dialog on a button event
+  @Override
   public void actionPerformed(ActionEvent e) {
     // do nothing. let "this" close frame on mouse click.
     // if (e.getSource() == button1)
@@ -174,6 +176,7 @@ class frmAbout_this_mouseAdapter extends java.awt.event.MouseAdapter {
     this.adaptee = adaptee;
   }
 
+  @Override
   public void mouseReleased(MouseEvent e) {
     adaptee.this_mouseReleased(e);
   }
