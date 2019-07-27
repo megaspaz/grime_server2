@@ -4,8 +4,8 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 
 import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.UIManager.LookAndFeelInfo;
+import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  * <p>
@@ -20,7 +20,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
  * <p>
  * Company: N/A
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 2.0
  */
